@@ -11,6 +11,7 @@ app.listen((process.env.PORT || 5000));
 app.get("/", function (req, res) {
 
   res.send("Deployed!");
+  res.send("hello this is aydin");
   
 });
 
