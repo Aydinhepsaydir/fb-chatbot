@@ -10,8 +10,8 @@ app.listen((process.env.PORT || 5000));
 // Server index page
 app.get("/", function (req, res) {
 
-  res.send("Deployed!");
   res.send("hello this is aydin");
+  res.send("Deployed!");
   
 });
 
